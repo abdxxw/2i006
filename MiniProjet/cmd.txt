@@ -1,0 +1,6 @@
+plot "liste.txt" using 1:2 with lines
+replot "tHash.txt" using 1:2 with lines
+set term postscript portrait
+set output "courbes.ps"
+set size 0.7, 0.7
+replot

@@ -1,0 +1,19 @@
+
+set terminal pngcairo size 450,250 font "DejaVu Sans,8"
+
+set xrange [0:20000]
+set yrange [0:50]
+
+set style line 11 linetype 1 \
+                  linecolor rgb "#FF5733" \
+                  linewidth 3
+
+set style line 12 linetype 1 \
+                  linecolor rgb "#6BFF33" \
+                  linewidth 3
+
+
+set output "naif_balayage.png"
+
+plot 'naif.txt' title 'naif' with lines linestyle 11, \
+	'balayage.txt' title 'bayalage' with lines linestyle 12

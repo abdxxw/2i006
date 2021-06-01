@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" width="100%" height="100%" viewBox="-2.000000 -2.000000 207.000000 207.000000" preserveAspectRatio="yes">
+<g >
+
+<line x1="20.000000" y1="40.000000" x2="120.000000" y2="40.000000"  style="stroke:#e42d04;stroke-width:2"/>
+<line x1="60.000000" y1="150.000000" x2="20.000000" y2="150.000000"  style="stroke:#33ffe6;stroke-width:2"/>
+<line x1="60.000000" y1="0.000000" x2="60.000000" y2="150.000000"  style="stroke:#33ffe6;stroke-width:2"/>
+<line x1="80.000000" y1="200.000000" x2="20.000000" y2="200.000000"  style="stroke:#33ffe6;stroke-width:2"/>
+<line x1="80.000000" y1="200.000000" x2="150.000000" y2="200.000000"  style="stroke:#33ffe6;stroke-width:2"/>
+<line x1="80.000000" y1="0.000000" x2="80.000000" y2="200.000000"  style="stroke:#33ffe6;stroke-width:2"/>
+
+
+</g></svg>

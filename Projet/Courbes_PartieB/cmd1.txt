@@ -1,0 +1,19 @@
+
+set terminal pngcairo size 450,250 font "DejaVu Sans,8"
+
+set xrange [0:5000]
+set logscale y
+
+set style line 11 linetype 1 \
+                  linecolor rgb "#FF5733" \
+                  linewidth 3
+
+set style line 12 linetype 1 \
+                  linecolor rgb "#6BFF33" \
+                  linewidth 3
+
+
+set output "getvia_bicolore.png"
+
+plot 'getvia.txt' title 'getVia' with lines linestyle 11, \
+	'bicolore.txt' title 'bicolore' with lines linestyle 12

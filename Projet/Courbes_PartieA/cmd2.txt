@@ -1,0 +1,19 @@
+
+set terminal pngcairo size 450,250 font "DejaVu Sans,8"
+
+set xrange [0:20000]
+set yrange [0:5]
+
+
+set style line 12 linetype 1 \
+                  linecolor rgb "#6BFF33" \
+                  linewidth 3
+
+set style line 13 linetype 1 \
+                  linecolor rgb "#10bb70" \
+                  linewidth 3
+
+set output "balayage_avl.png"
+
+plot 'balayage.txt' title 'balayage' with lines linestyle 12, \
+	'avl.txt' title 'avl' with lines linestyle 13
